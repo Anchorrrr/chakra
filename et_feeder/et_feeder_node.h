@@ -45,6 +45,8 @@ class ETFeederNode {
 
     uint64_t id_;
     std::string name_;
+    uint64_t start_time_micros_;
+    uint64_t end_time_micros_;
     bool is_cpu_op_;
     uint64_t runtime_;
     uint64_t num_ops_;
